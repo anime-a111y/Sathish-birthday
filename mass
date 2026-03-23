@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday Sathish 🎉</title>
+<style>
+body {
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    margin-top: 100px;]oynm,,,jkkj
+}
+h1 { font-size: 40px; }
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    background: yellow;
+    cursor: pointer;
+}
+#msg { margin-top: 20px; font-size: 22px; }
+</style>
+</head>
+
+<body>
+
+<h1>🎂 Happy Birthday Sathish 🎂</h1>
+<p>Bro… you're getting older 😂</p>
+
+<button onclick="show()">Click Here 😎</button>
+
+<p id="msg"></p>
+
+<script>
+function show() {
+    document.getElementById("msg").innerHTML =
+    "😂 Happy Birthday da! Stay awesome!";
+}
+</script>
+
+</body>
+</html>
